@@ -22,6 +22,7 @@ export default {
 
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
 .logo {
     font-size: 20px;
     text-decoration: none;
@@ -32,18 +33,30 @@ nav a {
     color: inherit;
     padding: 20px;
     position: relative;
+    transition: color 0.5s ease-in-out;
     
 }
 .resume {
-    color: #6FFFE9;
-    border:solid #6FFFE9;
+    color: #62DFCC;
+    border:solid #62DFCC;
     border-radius: 15px;
     padding: 15px;
     right: -10px;
+    transition: background-color 0.5s ease-in-out;
 }
+
+.resume:hover{
+    color: #212F40;
+    background-color: #62DFCC;
+    border-color: #212F40;
+    transition: background-color 0.5s ease-in-out;
+
+}
+
 nav a:hover {
     color: #6FFFE9;
     transition: color 0.5s ease-in-out;
+    
 }
 
 .num {

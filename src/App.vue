@@ -13,7 +13,7 @@ export default {
 <style>
 
 body {
-  background-color: #1c2541;
+  background-color: #212F40;
 
 }
 

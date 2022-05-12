@@ -25,11 +25,6 @@ export default {
 <style scoped>
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto+Mono&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
-:root {
-    --bg-color: #1c2541;
-    --typewriterSpeed: 1.5s;
-    --typewriterCharacters: 14;
-}
 .main {
     position: relative;
     top: 150px;
@@ -37,7 +32,7 @@ export default {
 }
 .nameTitle {
     font-family: Montserrat, sans-serif;
-    color: #f1e9e9;
+    color: #FFFFFF;
     opacity: 0;
     transform: translateY(3rem);
     animation: fadeInUp 2s ease 3.5s forwards;
@@ -46,7 +41,7 @@ export default {
 .pIntro {
     font-size: 20px;
     font-family: Montserrat, sans-serif;
-    color: #99acab ;
+    color: #F2F2F2;
     opacity: 0;
     transform: translateY(3rem);
     animation: fadeInUp 2s ease 4.5s forwards;
@@ -70,7 +65,7 @@ export default {
     right: 0;
 }
 .smallIntro::before {
-    background: #1c2541;
+    background: #212F40;
     animation: typewriter 1.5s steps(14) 1s forwards;
 }
 .smallIntro::after {
