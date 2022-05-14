@@ -36,10 +36,25 @@ module.exports = {
           '50%': { transform: 'rotate(10.0deg)' },
           '60%': { transform: 'rotate(0.0deg)' },
           '100%': { transform: 'rotate(0.0deg)' },
-        }
+        },
+        'fade-in-up': {
+          '0%': {
+              opacity: '0',
+              transform: 'translateY(10px)'
+          },
+          '100%': {
+              opacity: '1',
+              transform: 'translateY(0px)'
+          },
+      },
       },
       animation: {
         'waving-hand': 'wave 2s linear infinite',
+        'fade-in-up': 'fade-in-up 2s ease-out',
+        'fade-in-up-delay': 'fade-in-up 2s ease-out 1s',
+        'fade-in-up-delay1': 'fade-in-up 2s ease-out 1.5s',
+        'fade-in-up-delay2': 'fade-in-up 2s ease-out 2s'
+        
       },
     },
   },
