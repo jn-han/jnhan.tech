@@ -1,19 +1,25 @@
 <template>
 
-    <NavBar />
-    <div class="main">
-        <div class="intro">
-            <h2 class="smallIntro">Hi, my name is</h2>
-            <h1 class="nameTitle">Joshua Nguyen</h1>
-            <p class="pIntro">An aspiring software engineer studying at the University of British Columbia</p>
-        </div>
-    </div>
+    <NavBar class="z-99" />
+    <header class="relative top-36 left-28 max-w-fit">
+        <h3 class="text-lg relative top-4 text-light-teal flex">Hello<span class="animate-waving-hand">&nbsp;👋🏻</span>, my name is </h3>
+        <h1 class="text-7xl text-white">Joshua</h1>
+        <h3 class="relative bottom-9 text-6xl text-bone">Nguyen</h3>
+        <p class="text-xl relative bottom-9 text-bone">A software engineer based in Vancouver, British Columbia seeking to create seamless applications from the front end.
+          <br>I am currently studying Computer Science at the University of British Columbia
+        </p>
+        <font-awesome-icon id="arrow" :icon="['fas', 'arrow-down']"/>
 
+    </header>
+        <span class="inline-block animate-bounce rounded-full p-4 bg-teal-400 text-light-teal text-sm absolute inset-x-0 bottom-0 h-16">
+        <svg class="w-6 h-6 mx-auto text-light-teal" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><path fill="#62dfcc" d="M374.6 310.6l-160 160C208.4 476.9 200.2 480 192 480s-16.38-3.125-22.62-9.375l-160-160c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L160 370.8V64c0-17.69 14.33-31.1 31.1-31.1S224 46.31 224 64v306.8l105.4-105.4c12.5-12.5 32.75-12.5 45.25 0S387.1 298.1 374.6 310.6z"/>
+        </svg>
+    </span>
 </template>
-
+``
 <script>
 import NavBar from './NavBar.vue'
-
+import '../assets/down-arrow.svg'
 export default {
     name: 'Home',
     components: {
@@ -23,75 +29,9 @@ export default {
 </script>
 
 <style scoped>
-@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto+Mono&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
-.main {
-    position: relative;
-    top: 150px;
-    justify-content: left;
-}
-.nameTitle {
-    font-family: Montserrat, sans-serif;
-    color: #FFFFFF;
-    opacity: 0;
-    transform: translateY(3rem);
-    animation: fadeInUp 2s ease 3.5s forwards;
-}
 
-.pIntro {
-    font-size: 20px;
-    font-family: Montserrat, sans-serif;
-    color: #F2F2F2;
-    opacity: 0;
-    transform: translateY(3rem);
-    animation: fadeInUp 2s ease 4.5s forwards;
-}
-
-.smallIntro {
-    color: #6FFFE9;
-    font-family: 'Roboto Mono', monospace;
-    font-size: clamp(1rem,3vw+1rem, 4rem);
-    position: relative;
-    width: max-content;
-}
-
-.smallIntro::before,
-.smallIntro::after {
-    content: '';
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-}
-.smallIntro::before {
-    background: #212F40;
-    animation: typewriter 1.5s steps(14) 1s forwards;
-}
-.smallIntro::after {
-    background: white;
-    width: 0.125em;
-    animation: 
-    typewriter 1.5s steps(14) 1s forwards, 
-    blink 1000ms steps(14) infinite;
-}
-
-@keyframes typewriter {
-    to {
-        left: 100%;
-    }
-}
-
-@keyframes blink {
-    to {
-        background: transparent;
-    }
-}
-@keyframes fadeInUp {
-    to {
-        opacity: 1;
-        transform: translateY(0)
-    }
+#arrow {
+  color: teal;
 }
 
 </style>

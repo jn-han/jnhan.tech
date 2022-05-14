@@ -1,13 +1,15 @@
 <template>
-<header>
+<header class="fixed bg-navy w-full p-5 flex items-center text-bone">
     <div>
-        <router-link class="logo" to="/">JN</router-link>
+        <router-link to="/">JN</router-link>
     </div>
-    <nav class="nav_links">
-        <router-link to="/about"><span class="num">1. </span>About</router-link>
-        <router-link to="/projects"><span class="num">2. </span>Projects</router-link>
-        <router-link to="/contact"><span class="num">3. </span>Contact</router-link>
-        <router-link to="/resume" class="resume">Resume</router-link>
+    <nav class="absolute px-5 right-0 text-bone">
+        <router-link class="pr-5 transition duration-750 ease-out hover:text-light-teal" to="/"><span class="text-light-teal">1. </span>About</router-link>
+        <router-link class="pr-5 transition duration-750 ease-out hover:text-light-teal" to="/"><span class="text-light-teal">2. </span>Projects</router-link>
+        <router-link class="pr-5 transition duration-750 ease-out hover:text-light-teal" to="/"><span class="text-light-teal">3. </span>Contact</router-link>
+        <router-link class="px-5 py-3 border-solid border-2 rounded-md border-light-teal text-light-teal 
+        transition duration-750 ease-out hover:bg-light-teal hover:text-navy " 
+        to="/">Resume</router-link>
     </nav>
 
 </header>
@@ -23,61 +25,5 @@ export default {
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
-.logo {
-    font-size: 20px;
-    text-decoration: none;
-    color: inherit;
-}
-nav a {
-    text-decoration: none;
-    color: inherit;
-    padding: 20px;
-    position: relative;
-    transition: color 0.5s ease-in-out;
-    
-}
-.resume {
-    color: #62DFCC;
-    border:solid #62DFCC;
-    border-radius: 15px;
-    padding: 15px;
-    right: -10px;
-    transition: background-color 0.5s ease-in-out;
-}
 
-.resume:hover{
-    color: #212F40;
-    background-color: #62DFCC;
-    border-color: #212F40;
-    transition: background-color 0.5s ease-in-out;
-
-}
-
-nav a:hover {
-    color: #6FFFE9;
-    transition: color 0.5s ease-in-out;
-    
-}
-
-.num {
-    color: #6FFFE9;
-}
-
-header {
-    font-family: 'Montserrat', sans-serif;
-    color: #95a9a6;
-    position: fixed;
-    font-size: 17px;
-    box-sizing: border-box;
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px;
-    z-index: 99;
-    top: 5px;
-    right: 0%;
-    left: 0%;
-    right: 0%;
-}
 </style>
