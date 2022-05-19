@@ -1,12 +1,12 @@
 <template>
 <NavBar/>
 <div class="">
-  <div class="grid auto-rows-auto">
-    <div class="flex align-items justify-center h-screen w-screen ">
+  <div class="grid auto-rows-auto top-24">
+    <div class="flex align-items justify-center h-screen w-screen">
       <Intro/>
       <DownArrow/>
     </div>
-    <div class="h-screen w-screen flex justify-center">
+    <div class="h-screen w-screen flex justify-center ">
       <About/>
     </div>
   </div>

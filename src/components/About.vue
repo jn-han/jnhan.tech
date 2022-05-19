@@ -1,7 +1,17 @@
 <template>
+
 <div class="flex flex-col text-bone w-8/12">
-    <div class="relative">
+    <div class="relative top-24">
         <h1 class="text-white text-5xl"><span class="text-light-teal">1.&nbsp;</span>About</h1>
+        <p>Hi! My name is Josh, a student and developer attending the University of British Columbia. jakdlfjklasdkfasldjf fjadklsfjkasdkflasdlfjladsfadsf
+            afdjsklfjakldsjlfk fadnskfjalksdjfkladsf asdfnklasdjfladsfnwer adsnfladjsfjadklsf qwer dkadslfjadsnfqlwejrlqewrlqewrlkejwqr
+            <br>
+            adsklfjaskldfjlasdfkadlkfqlewrjklsd asdnflaksdjfklads ewrj dsaalkejrlqe asdfjle rfladsjfalerqelwr vadsfaldsfjlqewnf adslfnaldsfjmasdlf alwesrjeaw flasnf
+            jasdjfklqweklrfaskldfjlaew f adslfmasldfqwe rfjasd flakewjrldsa falksdjfmlqwe fladsjfmlweqnrfalsdkfjmwqeldfnasdfjmwe
+            <br>
+            <br>
+            My variety of skills and experience can be found below:
+        </p>
         <br>
         <div class="flex flex-row">
             <div class="w-1/3">
