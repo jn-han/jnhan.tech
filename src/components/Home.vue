@@ -6,8 +6,8 @@
       <Intro/>
       <DownArrow/>
     </div>
-    <div class="border-2 border-solid border-light-teal h-screen w-screen">
-
+    <div class="h-screen w-screen flex justify-center">
+      <About/>
     </div>
   </div>
 </div>
@@ -18,11 +18,13 @@
 
 
 </template>
-``
+
 <script>
 import NavBar from './NavBar.vue'
 import Intro from './Intro.vue'
 import DownArrow from './DownArrow.vue'
+import About from './About.vue'
+
 
 export default {
     name: 'Home',
@@ -30,6 +32,7 @@ export default {
     NavBar,
     Intro,
     DownArrow,
+    About
 }
 }
 </script>
