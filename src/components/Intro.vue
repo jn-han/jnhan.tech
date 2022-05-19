@@ -1,6 +1,6 @@
 <template>
-    <div class="grid grid-flow-col auto-cols-max">
-      <header id="home" class="absolute grid grid-flow-dense left-28 top-1/3">
+    <div class="bg-light-teal flex align-items justify-center">
+      <header class="absolute top-1/4 w-8/12">
         <h3 class="text-lg relative top-4 text-light-teal flex">Hello<span class="animate-waving-hand">&nbsp;👋🏻</span>, my name is </h3>
         <h1 class="text-7xl text-white">Joshua</h1>
         <h3 class="relative bottom-9 text-6xl text-bone">Nguyen</h3>

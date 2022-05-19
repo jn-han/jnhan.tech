@@ -1,9 +1,17 @@
 <template>
-  <NavBar />
-  <div>
-    <Intro/>
-    <DownArrow/>
+<NavBar/>
+<div class="">
+  <div class="grid auto-rows-auto">
+    <div class="flex align-items justify-center h-screen w-screen ">
+      <Intro/>
+      <DownArrow/>
+    </div>
+    <div class="border-2 border-solid border-light-teal h-screen w-screen">
+
+    </div>
   </div>
+</div>
+
 
 
 
@@ -21,7 +29,7 @@ export default {
     components: {
     NavBar,
     Intro,
-    DownArrow
+    DownArrow,
 }
 }
 </script>

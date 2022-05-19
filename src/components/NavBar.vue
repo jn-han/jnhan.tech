@@ -1,5 +1,5 @@
 <template>
-<header class="fixed bg-navy w-full z-99 opacity-100 p-6 flex items-center text-bone">
+<div class="fixed bg-navy w-screen z-50 opacity-100 p-6 flex text-bone">
     <div>
         <router-link to="/">JN</router-link>
     </div>
@@ -12,7 +12,7 @@
         to="/">Resume</router-link>
     </nav>
 
-</header>
+</div>
 
 </template>
 
