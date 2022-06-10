@@ -11,7 +11,7 @@
       <About/>
     </div>
     <div class="flex align-items justify-center h-auto w-screen border-2">
-
+      
     </div>
   </div>
 </div>
