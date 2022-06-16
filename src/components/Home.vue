@@ -7,11 +7,11 @@
       <Intro/>
       <DownArrow/>
     </div>
-    <div class="h-screen w-screen flex justify-center ">
+    <div class="h-screen w-screen flex justify-center">
       <About/>
     </div>
-    <div class="flex align-items justify-center h-auto w-screen border-2">
-      
+    <div class="flex align-items justify-center h-screen w-screen border-2 border-white">
+      <Contact/>
     </div>
   </div>
 </div>
@@ -29,6 +29,7 @@ import Intro from './Intro.vue'
 import DownArrow from './DownArrow.vue'
 import About from './About.vue'
 import Socials from './Socials.vue'
+import Contact from './Contact.vue'
 
 
 export default {
@@ -38,7 +39,8 @@ export default {
     Intro,
     DownArrow,
     About,
-    Socials
+    Socials,
+    Contact
 }
 }
 </script>

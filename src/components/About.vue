@@ -23,7 +23,7 @@
                 JavaScript <br> Java <br> React.js <br> Vue.js <br> CSS <br> HTML
             </div>
             <div class="w-1/3">
-                
+                Vue.js <br> CSS <br> HTML
             </div>
         </div>
         <br>
