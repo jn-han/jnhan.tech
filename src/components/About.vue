@@ -1,7 +1,7 @@
 <template>
 
 <div class="flex flex-col text-bone w-7/12">
-    <div class="relative top-24">
+    <div class="relative top-24 text-xl">
         <h1 class="text-white text-5xl"><span class="text-light-teal">1.&nbsp;</span>About</h1>
         <br>
         <p>Hi! My name is Josh, a student and developer attending the University of British Columbia. jakdlfjklasdkfasldjf fjadklsfjkasdkflasdlfjladsfadsf
@@ -35,7 +35,7 @@
                 Eric Hamber Secondary <br> Langara College <br> University of British Columbia
             </div>
             <div class="w-1/3">
-                2017-2018
+                2015-2020 <br> 2020-2021 <br> 2021-2022
             </div>
         </div>
         <br>

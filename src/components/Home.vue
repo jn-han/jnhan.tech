@@ -1,7 +1,7 @@
 <template>
 <NavBar/>
 <Socials/>
-<div class="">
+<div class="bg-navy">
   <div class="grid auto-rows-auto top-24">
     <div class="flex align-items justify-center h-screen w-screen">
       <Intro/>
@@ -10,7 +10,7 @@
     <div class="h-screen w-screen flex justify-center">
       <About/>
     </div>
-    <div class="flex align-items justify-center h-screen w-screen border-2 border-white">
+    <div class="flex align-items justify-center h-screen w-screen">
       <Contact/>
     </div>
   </div>

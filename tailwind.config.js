@@ -7,7 +7,7 @@ module.exports = {
     colors: {
       'light-teal': '#62dfcc',
       'dark-teal': '#088E99',
-      'navy': '#212f40',
+      'navy': '#181c2c',
       'bone': '#adb5bd',
       'white': '#dee2e6'
     },
@@ -21,7 +21,7 @@ module.exports = {
       '2xl': '1.5rem',
       '3xl': '1.875rem',
       '4xl': '2.25rem',
-      '5xl': '3rem',
+      '5xl': '4rem',
       '6xl': '5rem',
       '7xl': '6rem',
     },
